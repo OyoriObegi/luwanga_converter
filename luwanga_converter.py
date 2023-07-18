@@ -9,18 +9,18 @@ luwanga_numbers = {
     4: 'tsine',
     5: 'tsirano',
     6: 'sita',
-    7: 'saba',
+    7: 'musafu',
     8: 'munane',
-    9: 'tisa',
-    10: 'kumi',
-    20: 'makhumi kabiri',
-    30: 'makhumi kararu',
-    40: 'makhumi kane',
-    50: 'makhumi karano',
-    60: 'makhumi sita',
-    70: 'makhumi saba ',
-    80: 'makhumi munane',
-    90: 'makhumi tisa',
+    9: 'shenda',
+    10: 'ikhumi',
+    20: 'amakhumi kabiri',
+    30: 'amakhumi kararu',
+    40: 'amakhumi kane',
+    50: 'amakhumi karano',
+    60: 'amakhumi sita',
+    70: 'amakhumi musafu ',
+    80: 'amakhumi munane',
+    90: 'amakhumi shenda',
     100: 'imia ndala'
 }
 
@@ -44,7 +44,7 @@ def luwanga_to_number(string):
         return number_mapping[string.lower()]
 
     # Regular expression pattern to match numbers like 'kumi', 'ishirini', etc.
-    number_pattern = r'\b(?:kumi|makhumi kabiri|makhumi kararu|makhumi kane|makhumi karano|makhumi sita|makhumi saba|makhumi munane|makhumi tisa)\b'
+    number_pattern = r'\b(?:ikhumi|amakhumi kabiri|amakhumi kararu|amakhumi kane|amakhumi karano|amakhumi sita|amakhumi musafu|amakhumi munane|amakhumi shenda)\b'
     # Regular expression pattern to match the separator 'na'
     separator_pattern = r'\bna\b'
 
