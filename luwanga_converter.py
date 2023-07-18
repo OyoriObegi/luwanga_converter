@@ -70,7 +70,7 @@ def luwanga_to_number(string):
 
 def main():
     st.title("Luwanga Number Converter")
-    st.write("The Luwanga Number Converter app allows you to convert numerical numbers to Luwanga language words and vice versa. Enter a number or a Luwanga word and select the corresponding input type.")
+    st.write("The Luwanga Number Converter app allows you to convert numerical numbers to Luwanga language words and vice versa. This application currently supports numerical numbers between 0 and 100, inclusive. Enter a number or a Luwanga word and select the corresponding input type.")
 
     input_type = st.selectbox("Input Type:", ("Number", "Luwanga Word"))
     user_input = st.text_input("Enter your Input:")
